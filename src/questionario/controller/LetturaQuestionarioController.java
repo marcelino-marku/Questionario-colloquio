@@ -17,7 +17,7 @@ import questionario.entity.Risposta;
 import questionario.entity.Tag;
 
 @Controller
-@RequestMapping("/api/questionario")
+//@RequestMapping("/api/questionario")
 public class LetturaQuestionarioController {
 
 	@RequestMapping(value = "/questions", method=RequestMethod.POST)
